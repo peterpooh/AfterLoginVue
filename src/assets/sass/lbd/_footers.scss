@@ -1,0 +1,120 @@
+.footer{
+    background-color: $white-color;
+
+    .footer-menu{
+        height: 41px;
+
+       
+    }
+
+    nav > ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-weight: normal;
+
+        a:not(.btn){
+            color: $default-color;
+            display: block;
+            margin-bottom: 3px;
+            &:hover,
+            &:focus{
+                color: $default-states-color;
+            }
+        }
+        a{
+            color:#484848;
+        }
+    }
+    .social-area{
+        padding: 15px 0;
+        h5{
+            padding-bottom: 15px;
+        }
+    }
+    .social-area > a:not(.btn){
+       color: $dark-gray;
+       display: inline-block;
+       vertical-align: top;
+       padding: $padding-social-a;
+       font-size: $font-size-large-navbar;
+       font-weight: normal;
+       line-height: $line-height;
+       text-align: center;
+       &:hover,
+       &:focus{
+           color: $default-states-color;
+       }
+    }
+    .copyright{
+        color: $default-states-color;
+        padding: 10px 15px;
+        margin: 10px 3px;
+        line-height: 20px;
+        font-size: $font-size-base;
+    }
+    hr{
+        border-color: $medium-gray;
+    }
+    .title{
+        color: $default-states-color;
+    }
+    
+}
+
+.footer-default{
+    background-color: $smoke-bg;
+}
+
+.footer:not(.footer-big){
+    nav > ul{
+       font-size: $font-size-base;
+       li{
+            margin-left: 10px;
+            float: left;
+        }
+       /*  a{
+            padding: 10px 0px;
+            margin: 10px 10px 10px 0px;
+        } */
+    }
+}
+
+.footer .footer-social-box{
+    margin-bottom:8px;
+}
+.footer .footer-social-box .icon{
+    color:#656565;
+    height:34px;
+    width:31px;
+    display:block;
+    float:left;
+    font-size:20px;
+    font-size:2rem;
+    margin:0 0;
+}
+.footer .footer-social-box h4{
+    float:left;margin-right:8px
+}
+.footer .footer-social-box ul{
+    margin:0;float:left;list-style:none
+}
+.footer .footer-social-box ul li{
+    float:left;
+    min-width:30px;
+    font-size:20px;
+    font-size:2rem;
+    margin:0 10px 0 0
+}
+.footer .footer-social-box ul li.mRight-0{
+    margin-right:0px
+}
+.footer .footer-social-box ul li a{
+    text-align:center
+}
+.footer .footer-social-box ul li a:hover .icon{
+    color:silver
+}
+.footer .footer-social-box{
+    margin-bottom:0px
+}
